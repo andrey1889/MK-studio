@@ -1,0 +1,19 @@
+.button {
+   
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+    text-align: center;
+  
+  }
+  
+  .button--login {
+    color:rgb(105, 102, 102);
+  }
+  
+  .button--sign {
+    color:rgb(105, 102, 102);
+  }
+  
