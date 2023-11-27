@@ -1,0 +1,23 @@
+.dummy {
+    border: 2px dashed black;
+    background-color: white;
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .dummy__header {
+    height: 52px;
+  }
+  
+  .dummy__main {
+    height: 500px;
+  }
+  
+  .dummy__footer {
+    height: 300px;
+  }
+  
