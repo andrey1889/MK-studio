@@ -42,22 +42,8 @@ display: flex;
 flex-direction: row;
 flex-wrap: wrap;
 justify-content:center;
-position: relative;
-z-index: 0;
 
-}
 
-.feature__list::after {
-    content: "";
-    position: absolute;
-    top: -120px;
-    left:75% ;
-    width: 20%;
-    height: 20%;
-    z-index: -1;
-    background-image: url("../images/feature/hearts_89f8ljnw0uma.svg");
-    background-repeat:no-repeat ;
-   
 }
 
 
