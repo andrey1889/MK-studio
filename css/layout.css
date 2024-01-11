@@ -4,15 +4,19 @@
   }
 
   .layout__header {
-    background-color: rgb(226, 213, 238);
+    background-color: rgb(205, 178, 231);
   }
 
   .layout__main {
     background-color: rgb(226, 213, 238);
+
+
+
   }
   
   .layout__footer {
-    background-color: transparent;
+    background-color: rgb(205, 178, 231);
+
   }
 
   .layout__content {

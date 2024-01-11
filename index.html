@@ -4,12 +4,19 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+
     <link rel="stylesheet" href="../MK-studio/css/reset.css" />
     <link rel="stylesheet" href="../MK-studio/css/layout.css" />
     <link rel="stylesheet" href="../MK-studio/css/dummy.css" />
     <link rel="stylesheet" href="../MK-studio/css/header.css">
-    <link rel="stylesheet" href="../MK-studio/css/button.css">
-    <link rel="stylesheet" href="">
+    <link rel="stylesheet" href="../MK-studio/css/feature.css">
+    <link rel="stylesheet" href="../MK-studio/css/slider-main.css">
+    <link rel="stylesheet" href="../MK-studio/css/feedback.css">
+    <link rel="stylesheet" href="../MK-studio/css/contacts.css">
+    <link rel="stylesheet" href="../MK-studio/css/footer.css">
+
     <title>Document</title>
   </head>
   <body>
@@ -18,7 +25,7 @@
         <div class="layout__content layout__content--primary">
           <header class="header">
          <div class="header__content">
-       <img width="" height="" src="logo" alt="">
+       <img class="header__logo" width="120px" height="100%" src="../MK-studio/images/logo.jpg" alt="">
         <nav class="header__navigation">
    <ul class="header__links">
 <li class="header__link"><a href="#">Информация</a></li>
@@ -36,31 +43,136 @@
          src="../MK-studio/images/menu.png"
          class="header__burger"
        />
-       <div class="header__buttons">
-        <div class="header__button">
-          <button type="button" class="button button--login">
-            Вход
-          </button>
-        </div>
-        <div class="header__button">
-          <button type="button" class="button button--sign">
-            Регистрация
-          </button>
-        </div>
-      </div>
+       
           </header>
         </div>
       </div>
       <div class="layout__main">
         <div class="layout__content layout__content--secondary">
-          <main class="dummy dummy__main">MAIN</main>
+          <main class="main">
+            <!-- Разделить на инфо! -->
+         <section class="main__section feature">
+              <div class="feature__header">
+             <h3 class="feature__title title"> Мечтаешь <br> о здоровых и красивых <br> волосах?</h3>
+               <h4 class="feature__subtitle">Добро пожаловать в <strong>"Studio by Milena Klepus"! 
+                </strong><br>Уходовые процедуры, домашний уход и аксессуары.</h4>
+          </div>
+
+<!-- до сюда--- -->
+
+                    <div class="feature__content">
+               <ul class="feature__list list">
+                <li class="feature__item item-list"><h5 class="item-feature__subtitle item-subtitle">Индивидуальный подход.</h5><p class="item-feature__text item-text"> Мы слушаем и понимаем <br> потребности клиентов.</p></li>
+                <li class="feature__item item-list"><h5 class="item-feature__subtitle item-subtitle">Доступные цены.</h5> <p class="item-feature__text item-text" > Не наживаемся на клиентах, держим цены.</p> </li>
+                <li class="feature__item item-list"><h5 class="item-feature__subtitle item-subtitle">Профессиональная косметика <br> для волос.</h5><p class="item-feature__text item-text">Покупаем только у провереных поставщиков.</p></li>
+                <li class="feature__item item-list"><h5 class="item-feature__subtitle item-subtitle">Гарантированный результат.</h5><p class="item-feature__text item-text">  Работаем на качество, а не на количество.</p></li>
+                <li class="feature__item item-list"><h5 class="item-feature__subtitle item-subtitle"> Опытный мастер.</h5><p class="item-feature__text item-text"> Мастер имеет опыт более 4 лет<br>   и сертификаты подтверждения квалификации.</p></li>
+                <li class="feature__item item-list"> <h5 class="item-feature__subtitle item-subtitle"> Дружеская обстановка.</h5><p class="item-feature__text item-text">У нас всегда хорошее настроение.<br> Заряд позитива включен в стоимость услуг.</p></li>
+              </ul>
+               <h4 class="feature__title title">Почему выбирают нас?</h4>
+               <div class="feature__images">
+           <img class="feature__image"  src="../MK-studio/images/feature/alexandru-zdrobau-BGz8vO3pK8k-unsplash.jpg" alt="">
+           <img class="feature__image" src="../MK-studio/images/feature/lera-kogan-CIrRI0ujiRo-unsplash.jpg" alt="">
+           <img class="feature__image" src="../MK-studio/images/feature/vino-li-2__LZQ3sUpw-unsplash.jpg" alt="">
+          </div>
+          </div>
+          </section>
+         <section class="main__section slider-main">
+          <h4 class="feature__title title">Примеры работ</h4>
+<div class="swiper mySwiper">
+  <div class="swiper-wrapper">
+    <div class="swiper-slide"><img class="sviper-image" src="../MK-studio/images/result/4.jpg" alt=""></div>
+    <div class="swiper-slide"><img class="sviper-image" src="../MK-studio/images/result/5.jpg" alt=""></div>
+    <div class="swiper-slide"><img class="sviper-image" src="../MK-studio/images/result/6.jpg" alt=""></div>
+    <div class="swiper-slide"><img class="sviper-image" src="../MK-studio/images/result/7.jpg" alt=""></div>
+    <div class="swiper-slide"><img class="sviper-image" src="../MK-studio/images/result/4.jpg" alt=""></div>
+    <div class="swiper-slide"><img class="sviper-image" src="../MK-studio/images/result/5.jpg" alt=""></div>
+  </div>
+    <div class="swiper-pagination"></div>
+</div>
+         </section>
+<section class="main__section feedback">
+  <h4 class="feedback__title title">Отзывы наших клиентов</h4>
+  <ul class="feedback__list list">
+    <li class="feedback__item item-list"><h5 class="item-feature__subtitle item-subtitle">​Татьяна Кузнецова</h5><p class="item-feedback__text item-text"> <i>"Милена - профессионал своего дела и замечательный человек, с ней всегда есть о чем поговорить. Располагающая атмосфера, компетентный подход, гарантированный результат. К такому мастеру хочется приходить снова и снова.
+     Администратор постоянно пишет постоянно про обратную связь и акции. Всем советую!" <a href="../MK-studio/images/feedback/Кузнецова.png" target="_blank" class="original-feedback" >Посмотреть оригинал отзыва</a></i>
+      </p></li>
+    <li class="feedback__item item-list"><h5 class="item-feedback__subtitle item-subtitle">Мирослава Трошина</h5> <p class="item-feedback__text item-text" ><i>"Доверяю свои волосы на протяжении нескольких лет только Милене, на мой взгляд это самый лучший мастер!
+      В студии вас всегда угостят вкусным кофе со сладостями.Так же в студии огромный выбор домашнего ухода,
+       Милена всегда подберет то, что подходит именно вашим волосам.
+      Спасибо огромное за шикарные волосы!"</i></p> </li>
+    <li class="feedback__item item-list"><h5 class="item-feedback__subtitle item-subtitle">Виолетта Агапитова</h5><p class="item-feedback__text item-text"><i>"Лучшая студия во всем Нижнем Новгороде!
+      Начиная от отношения к клиенту, заканчивая качеством услуг и ценами!
+      Теперь только к Милене Сергеевне, мастер высокого уровня с кучей наград и статуэток!!!"</i></p></li>
+    <li class="feedback__item item-list"><h5 class="item-feedback__subtitle item-subtitle">​Екатерина Масленикова</h5><p class="item-feedback__text item-text"><i>"Очень все понравилось! Услуга оказана профессионально с дальнейшим индивидуальным подбором ухода. Однозначно, рекомендую"</i></p></li>
+    <li class="feedback__item item-list"><h5 class="item-feedback__subtitle item-subtitle"> Арина Макарычева</h5><p class="item-feedback__text item-text"><i>"Доверяю свои волосы только Милене, такими шикарными, как после её рук они ни когда не были!"</i></p></li>
+    <li class="feedback__item item-list"> <h5 class="item-feedback__subtitle item-subtitle"> Евгения Золина</h5><p class="item-feedback__text item-text"><i>"Посещаю постоянно, свои волосы доверяю только Милене!
+      Буду приходить снова и снова, всем советую!"</i></p></li>
+  </ul>
+</section>
+ <section class="main__contacts contacts">
+  <h4 class="contacts__title title">Контактная информация</h4>
+<div class="contacts__content">
+  <div class="contacts__text contact-text">
+<p class="contact-text__row"><strong>Салон красоты:</strong> "Studio by Milena Klepus".</p>
+<p class="contact-text__row"><strong>Адрес:</strong> г.Нижний Новгород, ул. ​Московское шоссе, 141, 1​ этаж; вход со двора​.</p>
+   <p class="contact-text__row"><strong>График работы:</strong> Ежедневно с 10:00 до 21:00. </p>
+ <p class="contact-text__row"><strong>Телефон:</strong> +7‒908‒763‒18‒40.</p>
+</div>
+
+
+<div class="contacts__maps map"><iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3A03afb64beb4702a404623775f1cbe2f7045e4fd742c06c5a3ec3be482f03565d&amp;source=constructor" width="800" height="400" frameborder="0"></iframe>
+
+</div>
+</div>
+ </section>
+
+          </main>
         </div>
       </div>
       <div class="layout__footer">
         <div class="layout__content layout__content--primary">
-          <footer class="dummy dummy__footer">FOOTER</footer>
+          <footer class="footer footer__mobile">
+            <div class="footer-top__wrapper">
+           <div class="footer-logo">
+            <img class="footer__logo" width="150px" height="100%" src="../MK-studio/images/logo.jpg" alt="">
+           </div>
+            <div class="company-details">
+              <p class="company-details__text">ИП Клепус Милена Сергеевна <br>
+                ИНН 290217902600 <br>
+                ОГРНИП 322527500060936
+              </p>
+            </div>
+            <div class="social__group-wrapper">
+              <span class="socialnetwork__performance">Мы в социальных сетях:</span>
+                <ul class="social-links">
+                  <li  class="social-link"> </li>
+                  <li class="social-link"><a href="https://vk.com/" class="link"><img src="../MK-studio/images/footer/vk.svg" alt="Вконтакте" width="50px" height="50px"></a></li>
+                  <li class="social-link"> <a href="" class="link"><img src="../MK-studio/images/footer/whatsapp.svg" alt="Вотсап" width="50px" height="50px"></a></li>
+                  <li class="social-link"><a href="" class="link"><img src="../MK-studio/images/footer/viber.svg" alt="Вайбер" width="50px" height="50px"></a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="footer-bottom">
+             <div class="confidentiality"> <a href="#">Политика конфиденциальности</a></div>
+             <div class="offer-agreemente"> <a href="#">Договор оферты</a></div>
+            </div>
+          </footer>
         </div>
       </div>
     </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+ 
+  <script>
+     var swiper = new Swiper(".mySwiper", {
+      slidesPerView: 3,
+      spaceBetween: 30,
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+    });
+  </script>
   </body>
 </html>

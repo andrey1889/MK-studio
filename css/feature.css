@@ -1,0 +1,109 @@
+
+.feature__content {
+    display: flex;
+    flex-direction: column-reverse ;
+    justify-content:center;
+ 
+}
+
+
+.title {
+    display: block;
+     padding: 40px 0px;
+     letter-spacing: 3px;
+     text-align: center;
+    text-decoration: none;
+    font-family: "Roboto";
+    font-style: italic;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 120%;
+    color:rgb(149, 143, 143);
+    margin-bottom: 20px;
+}
+
+.feature__subtitle {
+    display: block;
+    padding: 40px 0px;
+    letter-spacing: 3px;
+    text-align: center;
+   text-decoration: none;
+   font-family: "Roboto";
+   font-style: italic;
+   font-weight: 400;
+   font-size: 30px;
+   line-height: 120%;
+   color:rgb(149, 143, 143);
+   margin-bottom: 10px;
+}
+
+.list {
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+justify-content:center;
+position: relative;
+z-index: 0;
+
+}
+
+.feature__list::after {
+    content: "";
+    position: absolute;
+    top: -120px;
+    left:75% ;
+    width: 20%;
+    height: 20%;
+    z-index: -1;
+    background-image: url("../images/feature/hearts_89f8ljnw0uma.svg");
+    background-repeat:no-repeat ;
+   
+}
+
+
+
+.item-list {
+    max-width: 500px;
+    padding: 20px;
+    
+    min-width: 30%;
+    text-align:center;
+}
+
+.item-text {
+    display: flex;
+    justify-content: center;
+    padding: 20px 0px;
+   text-align: center;
+   text-decoration: none;
+   font-family: "Roboto";
+   font-style:normal;
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 120%;
+   color:rgb(162, 153, 179);
+
+}
+
+.item-subtitle  {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 180%;
+    letter-spacing: 1px;
+    color:rgb(162, 153, 179);
+   text-align: center;
+}
+
+
+.feature__images {
+   display: block;
+   text-align: center;
+}
+
+.feature__image {
+max-width: 658px;
+max-height: 500px;
+border-radius: 5px;
+padding-right: 2px;
+}
+

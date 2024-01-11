@@ -1,0 +1,13 @@
+.main {
+  overflow-x: hidden;
+}
+
+.main__section {
+  margin-bottom: 100px;
+}
+
+@media screen and (min-width: 1440px) {
+  .main__section {
+      padding-bottom: 200px;
+  }
+}

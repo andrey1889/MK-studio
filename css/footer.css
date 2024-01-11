@@ -1,0 +1,63 @@
+.footer{
+    
+    padding: 20px 0px;
+}
+
+.footer-top__wrapper{
+    margin: 0 auto;
+    display: flex;
+    justify-content: start;
+    flex-wrap: wrap;
+align-items: center;
+justify-content:space-around;
+margin-bottom: 20px;
+ 
+}
+
+.footer__logo{
+  
+    opacity: 0.7;
+    border-radius: 10%;
+  }
+
+  .company-details{
+ 
+  }
+
+.social__group-wrapper{
+    padding: 20px 40px;
+
+    border-radius: 0px 40px 0px 0px;
+  
+}
+
+.social__group-wrapper span{
+
+}
+
+.social-links {
+   display: flex;
+   margin-top: 20px;
+}
+.social-link:not(last-child)  {
+   padding-right: 10px;
+    
+}
+.link {
+}
+
+.footer-bottom{
+    padding: 20px 90px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+align-items: center;
+margin-bottom: 20px;
+font: inherit;
+color: antiquewhite;
+ 
+}
+.confidentiality{
+    margin-right: 180px;
+    display: block;
+}
