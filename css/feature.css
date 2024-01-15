@@ -22,7 +22,7 @@
     margin-bottom: 20px;
 }
 
-.feature__subtitle {
+.greeting__text {
     display: block;
     padding: 40px 0px;
     letter-spacing: 3px;
@@ -87,8 +87,8 @@ justify-content:center;
 }
 
 .feature__image {
-max-width: 658px;
-max-height: 500px;
+max-width: 100%;
+min-height: 100%;
 border-radius: 5px;
 padding-right: 2px;
 }

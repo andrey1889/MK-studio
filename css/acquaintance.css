@@ -1,0 +1,40 @@
+.main__section {
+}
+.acquaintance {
+}
+.acquaintance__content {
+}
+.acquaintance__title {
+}
+.title {
+}
+
+.acquaintance__item {
+ display: flex;
+ justify-content: center;
+ align-items: start;
+ background-color: rgb(248, 240, 240);
+ border: 1px solid white;
+ border-radius: 15px;
+}
+
+.acquaintance__item img {
+    border: 2px solid rgb(189, 187, 187);
+    border-radius: 15%;
+    margin-right: 20px;
+    border: 2px solid transparent;
+    border-radius: 15px;
+}
+.acquaintance__text {
+    display: block;
+    padding: 20px 20px;
+    letter-spacing: 0.5px;
+    text-align: justify;
+   text-decoration: none;
+   font-family: "Roboto";
+   font-weight: 400;
+   font-size: 18px;
+   line-height: 150%;
+   color:rgb(149, 143, 143);
+   margin-bottom: 10px;
+}
