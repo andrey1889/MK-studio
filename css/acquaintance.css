@@ -1,25 +1,23 @@
 .main__section {
 }
 .acquaintance {
+    padding: 20px;
+    padding-bottom: 80px;
 }
-.acquaintance__content {
-}
-.acquaintance__title {
-}
-.title {
-}
+
 
 .acquaintance__item {
  display: flex;
+
  justify-content: center;
  align-items: start;
- background-color: rgb(248, 240, 240);
+ background-color: white;
  border: 1px solid white;
  border-radius: 15px;
 }
 
 .acquaintance__item img {
-    border: 2px solid rgb(189, 187, 187);
+    border: 2px solid white;
     border-radius: 15%;
     margin-right: 20px;
     border: 2px solid transparent;

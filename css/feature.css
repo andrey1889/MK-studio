@@ -59,8 +59,8 @@ justify-content:center;
 .item-text {
     display: flex;
     justify-content: center;
+    text-align: justify;
     padding: 20px 0px;
-   text-align: center;
    text-decoration: none;
    font-family: "Roboto";
    font-style:normal;

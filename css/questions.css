@@ -1,0 +1,32 @@
+.questions {
+    padding-bottom: 50px;
+}
+
+.item-list__top {
+    display: flex;
+    justify-content: start;
+   
+}
+
+.item-list__top img {
+    border: 5px solid white;
+    border-radius: 15px;
+    margin-right: 10px;
+}
+
+.question-text {
+    text-align: justify;
+   
+}
+
+.micro-text {
+    font-size: 12px;
+}
+.price-text {
+    font-size: 15px;
+    letter-spacing: 1px;
+    font-weight: 600;
+    line-height: 250%;
+   
+}
+
