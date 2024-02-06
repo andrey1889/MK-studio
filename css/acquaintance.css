@@ -1,5 +1,4 @@
-.main__section {
-}
+
 .acquaintance {
     padding: 20px;
     padding-bottom: 80px;
@@ -35,4 +34,8 @@
    line-height: 150%;
    color:rgb(149, 143, 143);
    margin-bottom: 10px;
+}
+
+.questions {
+    padding-bottom: 80px;
 }
