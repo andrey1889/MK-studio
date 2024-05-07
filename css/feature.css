@@ -38,10 +38,9 @@
 }
 
 .list {
-display: flex;
-flex-direction: row;
-flex-wrap: wrap;
-justify-content:center;
+display:grid ;
+grid-template-columns: 1fr 1fr 1fr;
+
 
 
 }
@@ -49,17 +48,17 @@ justify-content:center;
 
 
 .item-list {
+   
     max-width: 500px;
     padding: 20px;
     
-    min-width: 30%;
+    min-width: 25%;
     text-align:center;
 }
 
 .item-text {
-    display: flex;
-    justify-content: center;
-    text-align: justify;
+    display:block ;
+    text-align: center;
     padding: 20px 0px;
    text-decoration: none;
    font-family: "Roboto";

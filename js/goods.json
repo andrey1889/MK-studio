@@ -1,0 +1,34 @@
+{
+"1234" : {
+            "name" : "BB One “Tobacco&Vanilla”",
+            "cost" : 637,
+            "description" : "Шампунь парфюм"  ,
+            "order" :  1 ,
+            "img"  : "../MK-studio/images/shop/shampoo/600x800.jpg"  
+         },
+"1235" : {  "name" : " BB One “Fudgy Cedar”",
+            "cost" : 637,
+            "description" : "Шампунь парфюм"  ,
+            "order" :  2 ,
+            "img"  : "../MK-studio/images/shop/shampoo/ BB One “Fudgy Cedar”"  
+         },
+
+"1236" : {
+            "name" : "BB One “Moulin Rouge”",
+            "cost" : 637,
+            "description" : "Шампунь парфюм"  ,
+            "order" :  3 ,
+            "img"  : "../MK-studio/images/shop/shampoo/BB One “Moulin Rouge”"  
+         },
+
+
+
+"1237" : {
+            "name" : "Limba Cosmetics Pure Volume",
+            "cost" : 637,
+            "description" : "Шампунь для придания объема"  ,
+            "order" :  4 ,
+            "img"  : "../MK-studio/images/shop/shampoo/Limba Cosmetics Pure Volume"  
+         }
+
+}
