@@ -3,61 +3,66 @@
     padding: 20px 0px;
 }
 
-.footer-top__wrapper{
-    margin: 0 auto;
-    display: flex;
-    justify-content: start;
-    flex-wrap: wrap;
-align-items: center;
-justify-content:space-around;
-margin-bottom: 20px;
+.footer__wrapper{
+  text-align: center;
+    display: grid;
+grid-template-columns: 1fr 1fr 1fr;
+
+
  
 }
 
-.footer__logo{
-  
+.footer-logo img {
+    width:170px;
+    height:100%;
     opacity: 0.7;
-    border-radius: 10%;
-  }
-
-  .company-details{
- 
-  }
+    border-radius: 15px;
+}
 
 .social__group-wrapper{
-    padding: 20px 40px;
-
+  
     border-radius: 0px 40px 0px 0px;
   
 }
 
-.social__group-wrapper span{
-
-}
 
 .social-links {
    display: flex;
    margin-top: 20px;
+   justify-content: center;
 }
 .social-link:not(last-child)  {
    padding-right: 10px;
     
 }
-.link {
+
+
+.confidentiality{
+   
+    display: block;
+    margin-bottom: 5px;
 }
 
-.footer-bottom{
-    padding: 20px 90px;
-    margin: 0 auto;
-    display: flex;
-    flex-wrap: wrap;
-align-items: center;
-margin-bottom: 20px;
-font: inherit;
-color: antiquewhite;
- 
+.confidentiality a, .offer-agreemente a {
+  text-decoration: none;
+   color: inherit;
+  
 }
-.confidentiality{
-    margin-right: 180px;
-    display: block;
+
+
+.company-details__text {
+    margin-bottom: 10px;
+  
+}
+
+
+@media screen and (max-width: 700px) {
+    .footer__wrapper{
+        text-align: center;
+          display: grid;
+      grid-template-columns: 1fr;
+     row-gap: 30px;
+      }
+
+
 }

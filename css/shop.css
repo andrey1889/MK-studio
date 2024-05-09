@@ -44,10 +44,7 @@ img {
 
 
 
-.product__info {
- 
- 
-}
+
 .product__title {
   font-size: 30px;
 }
@@ -90,61 +87,20 @@ margin-bottom: 40px;
   
 }
 
-@media screen and (min-width: 650px) {
+
+
+
+@media screen and (max-width: 900px) {
   .cards {
     display: grid;
    grid-template-columns: 1fr 1fr;
-    max-width: 1000px;
-  margin: 0 auto;
-    padding: 0px 10px;
-  }
-  
-  .card {
-   
-   min-width:42% ;
-    box-sizing: border-box;
-    max-height: 100%;
-    padding: 10px;
-  margin-bottom: 40px;
-    text-align:center;
-    background-color: #fff;
-    border-radius: 15px;
-  }
-  
-  .card__prices {
-  
-  }
-
-
-  .card__image {
-    min-height: 100px;
-  }
-  
-  .card__title {
-    font-size: 16px;
-    font-weight: 600;
-    text-align: center;
-   white-space: nowrap;
-    
-  }
-  
-}
-
-
-@media screen and (min-width: 880px) {
-  .cards {
-    display: grid;
-   grid-template-columns: 1fr 1fr 1fr;
     max-width: 1200px;
   margin: 0 auto;
     padding: 0px 10px;
   }
   
   .card {
-   
- 
     box-sizing: border-box;
-
     padding: 5px;
   margin-bottom: 40px;
     text-align:center;
@@ -164,12 +120,50 @@ margin-bottom: 40px;
   }
   
   .product__title {
-    font-size: 35px;
+    font-size: 25px;
   }
 
 }
 
+@media screen and (max-width: 682px) {
+  .cards {
+    display: grid;
+   grid-template-columns: 0.7fr;
+ 
+  }
+  
+  .card {
+   
+   min-width:42% ;
+    box-sizing: border-box;
+    max-height: 100%;
+    padding: 10px;
+  margin-bottom: 40px;
+    text-align:center;
+    background-color: #fff;
+    border-radius: 15px;
+  }
+  
 
+
+
+  .card__image {
+    min-height: 100px;
+  }
+  
+  .card__title {
+    font-size: 15px;
+    font-weight: 600;
+    text-align: center;
+   white-space: wrap;
+    
+  }
+  
+  .product__title {
+    font-size: 20px;
+  }
+
+}
 
 
 .card:hover {
@@ -209,7 +203,7 @@ justify-content: space-between;
 }
 .card__price:after {
   content: "₽";
-  left: 4%;
+
   position: relative;
 }
 

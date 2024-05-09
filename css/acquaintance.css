@@ -6,9 +6,8 @@
 
 
 .acquaintance__item {
- display: flex;
-
- justify-content: center;
+ display: grid;
+ grid-template-columns: 1fr 2fr;
  align-items: start;
  background-color: white;
  border: 1px solid white;
@@ -38,4 +37,34 @@
 
 .questions {
     padding-bottom: 80px;
+}
+
+@media screen and (max-width: 775px) {
+    .acquaintance__item {
+        display: grid;
+      grid-template-columns: 1fr;
+       }
+
+       .acquaintance__item img {
+        border: 2px solid white;
+       
+      margin: 0 auto;
+        border: 2px solid transparent;
+        border-radius: 15px;
+    }
+       .questions__list {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+
+       }
+
+}
+
+@media screen and (max-width: 540px) {
+ 
+
+       .questions__list {
+        grid-template-columns: 1fr;
+       }
+
 }

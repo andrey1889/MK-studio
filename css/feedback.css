@@ -6,3 +6,33 @@
     margin-bottom: 10px;
 }
 
+@media screen and (max-width: 705px) {
+
+    .feedback__list{
+        display:grid ;
+grid-template-columns: 1fr 1fr;
+
+    }
+    .item-feedback__subtitle {
+        font-size: 15px;
+    }
+
+    .item-feedback__text {
+        font-size: 14px;
+
+}
+}
+@media screen and (max-width: 516px) {
+    .feedback__list {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    
+    
+    .item-feedback__text {
+        font-size: 14px;
+
+}
+   
+
+}
