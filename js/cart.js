@@ -53,7 +53,7 @@ class Cart {
     return sum;
   }
   get discount() {
-    return this.cost ;
+    return this.cost;
   }
 }
 
