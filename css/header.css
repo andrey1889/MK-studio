@@ -35,16 +35,14 @@ transform: translateX(350%);
 animation: ani 1s forwards;
 
 }
-@supports (display: grid) {
+ 
 @keyframes ani {
   0% {transform: translateX(350%);}
   100% {transform: translateX(0);}
 }
 
-}
-.header__burger--close {
- overflow-x: hidden;
-}
+
+
 
 
 
