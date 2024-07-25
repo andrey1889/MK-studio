@@ -49,7 +49,7 @@ animation: ani 1s forwards;
 z-index: 500;
 padding: 10px;
 background-color: rgb(223, 188, 234);
-
+border-radius: 15px;
 }
  
 @keyframes ani {
