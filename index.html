@@ -168,7 +168,7 @@
             </section>
             <section class="main__section slider-main">
               <h4 class="feature__title title">Примеры работ</h4>
-              <div class="swiper mySwiper">
+              <div class="swiper mySwiper big-swiper">
                 <div class="swiper-wrapper">
                   <div class="swiper-slide">
                     <img
@@ -222,6 +222,9 @@
                 </div>
                 <div class="swiper-pagination"></div>
               </div>
+  
+ 
+
             </section>
             <section class="main__section feedback">
               <h4 class="feedback__title title">Отзывы наших клиентов</h4>
@@ -420,15 +423,48 @@
 
     <script>
       var swiper = new Swiper(".mySwiper", {
-        slidesPerView: 3,
-        spaceBetween: 30,
+        slidesPerView: 1,
+        spaceBetween: 10,
+
         pagination: {
           el: ".swiper-pagination",
           clickable: true,
         },
-      });
+ 
+
+        breakpoints: {
+          550: {
+      slidesPerView: 2,
+      spaceBetween: 20
+    },
+
+    1120: {
+      slidesPerView: 3,
+      spaceBetween: 30
+    },
+  }
+
+   }   );
     </script>
-    
+
+
+
+  
+
+
+
+
+   <!-- <script>
+    var swiper = new Swiper(".mySwiper:nth-of-type(2)", {
+      pagination: {
+        el: ".swiper-pagination",
+      },
+    });
+  </script>  -->
+
+
+
+
 <script src="./js/burger-menu.js"></script>
 
   
